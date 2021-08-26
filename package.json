@@ -1,0 +1,25 @@
+{
+  "name": "github-actions-starter-kit",
+  "version": "1.0.0",
+  "description": "Github Actions starter kit to create actions in javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyfe79/github-actions-starter-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyfe79/github-actions-starter-kit/issues"
+  },
+  "homepage": "https://github.com/skyfe79/github-actions-starter-kit#readme",
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  }
+}
